@@ -1,4 +1,4 @@
-package kr.co.jarvisk.algorithm.apss.recursive.pick;
+package kr.co.jarvisk.algorithm.apss.recursive;
 
 import java.util.Stack;
 
