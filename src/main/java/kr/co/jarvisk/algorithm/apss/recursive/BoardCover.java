@@ -4,8 +4,7 @@ import java.io.*;
 
 /**
  * ID : BOARDCOVER
- * LEVEL : LOWER
- *
+ * LEVEL : LOW
  * Page 159
  */
 public class BoardCover {

@@ -3,9 +3,11 @@ package kr.co.jarvisk.algorithm.apss.recursive;
 import java.io.*;
 
 /**
+ * ID : PICNIC
+ * LEVEL : Low
  * Page 155
  */
-public class FriendCount {
+public class Picnic {
 
     private static boolean[][] friends;
 
@@ -13,7 +15,7 @@ public class FriendCount {
 
     public static final void main(String[] args) {
 
-        try ( InputStream is = FriendCount.class.getClassLoader().getResourceAsStream("./input/recursive/friend_count_input.txt");
+        try ( InputStream is = Picnic.class.getClassLoader().getResourceAsStream("input/recursive/input_picnic.txt");
               BufferedInputStream bis = new BufferedInputStream(is);
               BufferedReader reader = new BufferedReader(new InputStreamReader(bis)); ) {
 
